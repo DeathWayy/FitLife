@@ -61,15 +61,15 @@ bmi_suffix = ""
 # Проверка индекса массы тела(ИМТ)
 if bmi < 16:
     bmi_suffix = "у вас выраженный дефицит массы тела."
-elif bmi >= 16 and bmi <= 18.5:
+elif bmi <= 18.5:
     bmi_suffix = "у вас недостаточная масса тела."
-elif bmi > 18.5 and bmi <= 25:
+elif bmi <= 25:
     bmi_suffix = "у вас нормальная масса тела."
-elif bmi > 25 and bmi <= 30:
+elif bmi <= 30:
     bmi_suffix = "у вас избыточная масса тела(Предожирение)"
-elif bmi > 30 and bmi <= 35:
+elif bmi <= 35:
     bmi_suffix = "у вас ожирение 1 степени"
-elif bmi > 35 and bmi <= 40:
+elif bmi <= 40:
     bmi_suffix = "у вас ожирение 2 степени"
 else:
     bmi_suffix = "у вас ожирение 3 степени"
